@@ -1,0 +1,103 @@
+.news-card {
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  flex: 1 1 100%;
+  transition: transform var(--transition-normal);
+
+  display: flex;
+  flex-direction: column; /* по умолчанию вертикально */
+  margin-bottom: 20px;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.news-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: var(--spacing-lg);
+}
+
+.news-date {
+  font-size: var(--font-size-small);
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.news-title {
+  font-size: var(--font-size-large);
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary-color);
+}
+
+.news-excerpt {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-color);
+}
+
+.news-link {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: all var(--transition-normal);
+}
+
+.news-link:hover {
+  color: var(--secondary-color);
+  transform: translateX(5px);
+}
+
+/* Мобильная версия — карточка вертикальная */
+@media (max-width: 767px) {
+  .news-card {
+    flex-direction: column;
+  }
+  /* Каждая вторая карточка — контент и изображение меняются местами */
+  .news-card:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Планшет (без изменения порядка, две колонки) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .news-card {
+    flex: 1 1 calc(50% - var(--spacing-xl));
+    flex-direction: column;
+  }
+}
+
+/* Десктоп — карточка горизонтальная (ряд) */
+@media (min-width: 992px) {
+  .news-card {
+    flex: 1 1 calc(33.333% - var(--spacing-xl));
+    flex-direction: row;
+  }
+
+  /* Каждая вторая карточка — меняем порядок на row-reverse */
+  .news-card:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  /* Ограничим ширину изображения и чтобы не сжималась */
+  .news-image {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  /* Контент растягивается */
+  .news-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

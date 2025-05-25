@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Count Master 3D Game</title>
+    <meta
+      name="description"
+      content="Get in touch with the Count Master 3D Game team - We'd love to hear from you!"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <main>
+      <section class="contact-section">
+        <div class="container">
+          <h1 class="page-title">Unite & Contact Us!</h1>
+          <div class="contact-content">
+            <div class="contact-form-container">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+            </div>
+            <div class="contact-info">
+              <!-- Contact info will be loaded from contacts.json -->
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7882367124376!2d151.2057383152048!3d-33.87103418065985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3f3e671bf1%3A0x5038b9dfd2a65f0!2s201%20Sussex%20St%2C%20Sydney%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sus!4v1695555555555!5m2!1sen!2sus"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Map of 201 Sussex St, Sydney"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-container"></div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

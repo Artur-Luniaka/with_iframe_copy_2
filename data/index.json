@@ -1,0 +1,91 @@
+{
+  "pageTitle": "Monster Heroes of Myths - Epic Battle Strategy Game",
+  "pageDescription": "Play Monster Heroes of Myths - Command mighty warriors and mythical beasts in intense battles against evil forces!",
+  "hero": {
+    "title": "Welcome to Monster Heroes of Myths",
+    "description": "Lead legendary monsters and heroes into battle. Use your powers, deploy troops, and crush waves of enemies in this epic defense game!",
+    "image": "./img/hero-img.jpg"
+  },
+  "howToPlay": {
+    "title": "How to Play",
+    "description": "Monster Heroes of Myths is a thrilling defense strategy game. Protect your base, summon powerful units, and defeat waves of dark forces. Here's how to get started:",
+    "steps": [
+      {
+        "title": "Summon Your Army",
+        "description": "Deploy heroes and monsters to your side of the battlefield. Each unit has unique powers and costs mana to summon."
+      },
+      {
+        "title": "Defend Your Gate",
+        "description": "Prevent enemy units from reaching your side. Use strategy and timing to hold the line!"
+      },
+      {
+        "title": "Use Special Skills",
+        "description": "Activate powerful skills to turn the tide of battle. These abilities recharge over time—use them wisely."
+      },
+      {
+        "title": "Defeat All Waves",
+        "description": "Survive all enemy waves to complete the level and earn rewards for upgrades."
+      }
+    ]
+  },
+  "crowdMechanics": {
+    "title": "Battle Mechanics",
+    "items": [
+      {
+        "icon": "➕",
+        "title": "Mana System",
+        "description": "Summon units using mana. Mana regenerates over time and is essential for building your army."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Unit Roles",
+        "description": "Combine melee, ranged, and magic units to form a balanced team. Each role is vital in different battle situations."
+      },
+      {
+        "icon": "🔄",
+        "title": "Upgrade Path",
+        "description": "Earn coins and gems to upgrade your units, increasing their power and durability."
+      },
+      {
+        "icon": "⚔️",
+        "title": "Combat Engagement",
+        "description": "Units automatically fight when enemies approach. The stronger team wins based on stats and numbers."
+      },
+      {
+        "icon": "🏁",
+        "title": "Level Progression",
+        "description": "Complete stages to unlock new units, challenges, and increasingly difficult waves of enemies."
+      },
+      {
+        "icon": "🌟",
+        "title": "Special Units",
+        "description": "Unlock legendary monsters and heroes with unique abilities to boost your strategic options."
+      }
+    ]
+  },
+  "survivalTips": {
+    "title": "Tips for Victory",
+    "tips": [
+      {
+        "title": "Balance Your Army",
+        "description": "Use a mix of units to handle both ground and air enemies effectively."
+      },
+      {
+        "title": "Upgrade Wisely",
+        "description": "Focus on upgrading your most-used heroes and units first to get the best returns in battle."
+      },
+      {
+        "title": "Time Your Skills",
+        "description": "Don’t waste special abilities. Use them when enemies gather in large groups for maximum effect."
+      },
+      {
+        "title": "Save Mana",
+        "description": "Avoid spending all your mana early. Always keep some in reserve for emergencies."
+      }
+    ]
+  },
+  "battleArena": {
+    "title": "Enter the Mythic Battlefield",
+    "description": "Step into a world of myth and magic. Assemble your squad of heroes and monsters, and face off against waves of enemies in this ultimate defense challenge!"
+  }
+}

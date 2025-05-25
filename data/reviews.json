@@ -1,0 +1,20 @@
+{
+  "title": "Players Speak",
+  "reviews": [
+    {
+      "name": "Alex Thompson",
+      "rating": 5,
+      "comment": "Monster Heroes of Myths is an epic game! Controlling legendary warriors and crushing hordes of enemies feels so powerful. Love the strategy and action!"
+    },
+    {
+      "name": "Sarah Johnson",
+      "rating": 4,
+      "comment": "Great mix of tactics and combat. The battles are exciting, and unlocking new heroes keeps me coming back for more."
+    },
+    {
+      "name": "Michael Chen",
+      "rating": 5,
+      "comment": "This game is pure fun. The variety of mythical units and intense fights make every level feel like a new adventure!"
+    }
+  ]
+}

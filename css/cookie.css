@@ -1,0 +1,36 @@
+/* Cookie page styles */
+.cookie-section {
+    background-color: var(--light-color);
+    padding: var(--spacing-xxl) 0;
+}
+
+.cookie-content {
+    background-color: var(--white-color);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.cookie-content h2 {
+    color: var(--primary-color);
+    font-size: var(--font-size-large);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: var(--spacing-xs);
+    display: inline-block;
+}
+
+.cookie-content p {
+    margin-bottom: var(--spacing-md);
+}
+
+.cookie-content ul {
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-lg);
+}
+
+.cookie-content ul li {
+    margin-bottom: var(--spacing-sm);
+    list-style-type: disc;
+}

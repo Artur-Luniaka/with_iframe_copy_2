@@ -1,0 +1,43 @@
+{
+  "pageTitle": "News - Monster Heroes of Myths",
+  "pageDescription": "Latest news and updates about Monster Heroes of Myths – Stay informed about new features and epic battles!",
+  "title": "Battle Reports & Heroic Updates",
+  "news": [
+    {
+      "title": "Mythic Arena Expansion Released",
+      "date": "May 15, 2023",
+      "image": "img/news-1.png",
+      "excerpt": "A brand-new arena has been unlocked! Fight your way through waves of monsters and unleash your strongest heroes in this epic battleground."
+    },
+    {
+      "title": "Double Damage Weekend Event",
+      "date": "April 28, 2023",
+      "image": "img/news-2.png",
+      "excerpt": "For a limited time, all heroes deal double damage! Don’t miss this chance to dominate the battlefield and crush your foes."
+    },
+    {
+      "title": "New Legendary Heroes Unleashed",
+      "date": "April 10, 2023",
+      "image": "img/news-3.png",
+      "excerpt": "Three powerful new heroes join the fight! Summon the Dragon Warrior, Shadow Sorcerer, and Thunder Giant to tip the scales of war."
+    },
+    {
+      "title": "Tournament of Myths Incoming",
+      "date": "March 22, 2023",
+      "image": "img/news-4.png",
+      "excerpt": "Enter the global Tournament of Myths! Compete with players worldwide and prove your army’s strength in legendary combat."
+    },
+    {
+      "title": "Boss Siege Mode Added",
+      "date": "March 5, 2023",
+      "image": "img/news-5.png",
+      "excerpt": "Face powerful boss monsters in the new Siege Mode! Prepare your strongest heroes and fight through colossal challenges."
+    },
+    {
+      "title": "Play Anytime on Mobile",
+      "date": "February 18, 2023",
+      "image": "img/news-6.png",
+      "excerpt": "Monster Heroes of Myths is now available on iOS and Android! Take your army on the go and battle in mythical realms anytime, anywhere."
+    }
+  ]
+}
